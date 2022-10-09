@@ -4,7 +4,7 @@ Homepage para um blog
 🔗[Acessar página](https://arthurmousinho.github.io/desafio_rocketblog/)
 
 
-![print](https://user-images.githubusercontent.com/102264203/194763296-5a12b3f3-e340-464a-a503-1451b890a2c6.png)
+![print](https://user-images.githubusercontent.com/102264203/194764351-3d5bae45-00aa-491c-b097-b8d58d5df4cd.png)
 
 
 ## Sobre💡
