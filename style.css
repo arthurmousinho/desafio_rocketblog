@@ -1,0 +1,258 @@
+/*----------    S   E   T   T   I   N   G   S    ----------*/
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FBF7FF;
+}
+
+
+
+/*----------    H   E   A   D   E   R    ----------*/
+
+header {
+    position: fixed;
+    background-color: #290742;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    height: 44px;
+}
+
+.search input {
+    width: 230px;
+    height: 42px;
+    outline: none;   
+    background: #170027;
+    color: white;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    padding-left: 10px;
+}
+
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 44px;
+    border:none;
+    background-color: #9E6DC2;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+} 
+
+
+
+/*----------    H   O   M   E     S  E   C   T   I   O   N    ----------*/
+
+.home-section {
+    padding-top: 50px;
+    width: 100vw;
+    height: 588px;
+    background-color: #290742;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-title {
+    width: 570px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #9E6DC2;
+}
+
+.main-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FBF6FF;
+}
+
+.main-title a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #9E6DC2;
+}
+
+.main-title a:hover {
+    text-decoration: underline #9E6DC2;
+
+}
+
+.see-more-container {
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+
+.see-more-container img {
+    cursor: pointer;
+}
+
+
+.see-more-container a {
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+/*----------   N  E   W   S     1    ----------*/
+
+.news-part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+
+.news-part1 h2 {
+    font-size: 24px;
+    color: #290742;
+}
+
+.news-part1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.react-news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.react-news-container img{
+    cursor: pointer;
+}
+
+.react-news-container p {
+    width: 569px;
+}
+
+.other-news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divider {
+    width: 520px;
+    height: 1px;
+    left: 835px;
+    top: 894.59px;
+    background: #F2E7FA;
+}
+
+.front-end-news , .internacional-jobs-news{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/*----------   N  E   W   S     2    ----------*/
+
+.news-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.news-part2 div h3 {
+    width: 370px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.news-part2 div p {
+    width: 370px;
+}
+
+.news-part2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-part2 div img {
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.news-part2 div img:hover {
+    transform: scale(1.1);
+}
